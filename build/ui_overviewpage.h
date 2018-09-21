@@ -153,6 +153,24 @@ public:
 
         listTransactions = new QListView(frame_2);
         listTransactions->setObjectName(QString::fromUtf8("listTransactions"));
+        QPalette palette;
+        QBrush brush(QColor(238, 238, 236, 255));
+        brush.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Active, QPalette::WindowText, brush);
+        palette.setBrush(QPalette::Active, QPalette::Text, brush);
+        palette.setBrush(QPalette::Active, QPalette::ButtonText, brush);
+        palette.setBrush(QPalette::Active, QPalette::ToolTipText, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::WindowText, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::Text, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::ButtonText, brush);
+        palette.setBrush(QPalette::Inactive, QPalette::ToolTipText, brush);
+        QBrush brush1(QColor(190, 190, 190, 255));
+        brush1.setStyle(Qt::SolidPattern);
+        palette.setBrush(QPalette::Disabled, QPalette::WindowText, brush1);
+        palette.setBrush(QPalette::Disabled, QPalette::Text, brush1);
+        palette.setBrush(QPalette::Disabled, QPalette::ButtonText, brush1);
+        palette.setBrush(QPalette::Disabled, QPalette::ToolTipText, brush);
+        listTransactions->setPalette(palette);
         listTransactions->setFrameShape(QFrame::NoFrame);
         listTransactions->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
         listTransactions->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
