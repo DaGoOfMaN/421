@@ -81,6 +81,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 {
     resize(850, 550);
     setWindowTitle(tr("421 Wallet"));
+    qApp->setStyleSheet("QMainWindow { background-color: #0e0e0e }");
 #ifndef Q_WS_MAC
     setWindowIcon(QIcon(":icons/421_icon"));
 #else

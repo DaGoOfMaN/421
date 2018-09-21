@@ -19,10 +19,13 @@
      <item>
       <widget class="QFrame" name="frame">
        <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
+        <enum>QFrame::NoFrame</enum>
        </property>
        <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>-1</number>
        </property>
        <layout class="QFormLayout" name="formLayout_2">
         <property name="fieldGrowthPolicy">
@@ -37,56 +40,56 @@
         <item row="2" column="0">
          <widget class="QLabel" name="label">
           <property name="text">
-           <string>Balance:</string>
+           <string>&lt;body&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;Balance&gt;&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
         <item row="2" column="1">
          <widget class="QLabel" name="labelBalance">
           <property name="text">
-           <string notr="true">0 BTC</string>
+           <string notr="true">&lt;body&gt;&lt;p style=&quot;color:#f8f5f5&quot;;&gt;0 BTC&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
         <item row="5" column="0">
          <widget class="QLabel" name="label_2">
           <property name="text">
-           <string>Number of transactions:</string>
+           <string>&lt;body&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;# of Transactions&gt;&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
         <item row="5" column="1">
          <widget class="QLabel" name="labelNumTransactions">
           <property name="text">
-           <string>0</string>
+           <string>&lt;body&gt;&lt;p style=&quot;color:#f8f5f5&quot;;&gt;0 &lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
         <item row="4" column="0">
          <widget class="QLabel" name="label_3">
           <property name="text">
-           <string>Unconfirmed:</string>
+           <string>&lt;body&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;Unconfirmed&gt;&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
         <item row="4" column="1">
          <widget class="QLabel" name="labelUnconfirmed">
           <property name="text">
-           <string notr="true">0 BTC</string>
+           <string notr="true">&lt;body&gt;&lt;p style=&quot;color:#f8f5f5&quot;;&gt;0 BTC&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
         <item row="3" column="0">
          <widget class="QLabel" name="label_6">
           <property name="text">
-           <string>Stake:</string>
+           <string>&lt;body&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;Stake&gt;&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
         <item row="3" column="1">
          <widget class="QLabel" name="labelStake">
           <property name="text">
-           <string notr="true">0 BTC</string>
+           <string notr="true">&lt;body&gt;&lt;p style=&quot;color:#f8f5f5&quot;;&gt;0 BTC&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
@@ -100,7 +103,7 @@
            </font>
           </property>
           <property name="text">
-           <string>421 </string>
+           <string>&lt;body&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;421&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
@@ -137,16 +140,19 @@
      <item>
       <widget class="QFrame" name="frame_2">
        <property name="frameShape">
-        <enum>QFrame::StyledPanel</enum>
+        <enum>QFrame::NoFrame</enum>
        </property>
        <property name="frameShadow">
-        <enum>QFrame::Raised</enum>
+        <enum>QFrame::Plain</enum>
+       </property>
+       <property name="lineWidth">
+        <number>-1</number>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <widget class="QLabel" name="label_4">
           <property name="text">
-           <string>&lt;b&gt;Recent transactions&lt;/b&gt;</string>
+           <string>&lt;body&gt;&lt;b&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;Recent Transactions&lt;b/&gt;&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
