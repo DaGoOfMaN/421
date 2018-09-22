@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>552</width>
-    <height>342</height>
+    <width>709</width>
+    <height>495</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -103,14 +103,14 @@
            </font>
           </property>
           <property name="text">
-           <string>&lt;body&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;421&lt;/p&gt;&lt;/body&gt;</string>
+           <string>&lt;body&gt;&lt;p style=&quot;color:#7fff00&quot;;&gt;Nug Count&lt;/p&gt;&lt;/body&gt;</string>
           </property>
          </widget>
         </item>
        </layout>
       </widget>
      </item>
-     <item alignment="Qt::AlignHCenter|Qt::AlignBottom">
+     <item>
       <widget class="QLabel" name="label_7">
        <property name="text">
         <string/>
